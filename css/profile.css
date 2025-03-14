@@ -5,7 +5,6 @@ body{
     background-color: #00552E;
 }
 .container{
-    padding-top: 57px;
     padding-left: 25px;
 }
 .header{
@@ -30,4 +29,40 @@ body{
     .likefood_wrap{
         padding-top: 24px;
     }
+}
+.favorite_title{
+    text-align: center;
+}
+.top_content_wrap{
+    display: flex;
+    gap: 8px;
+    padding-top: 24px;
+}
+.bottom_content_wrap{
+    display: flex;
+    gap: 8px;
+}
+.title{
+    text-align: center;
+}
+.finish{
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer{
+    height: 68px;
+    background-color: #814E1E;
+    ul{
+        display: flex;
+        gap: 40px;
+    }
+    li{
+        list-style: none;
+    }
+}
+.homeicon{
+    padding-left: 20px;
+}
+.myicon{
+    padding-top: 12px;
 }

@@ -1,0 +1,60 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #F9F6D0;
+}
+.blackboard{
+    text-align: center;
+}
+.longdesk{
+    text-align: center;
+    margin-top: -24px;
+    position: relative;
+}
+.teacher{
+    position: absolute;
+    top: 128px;
+    right: 134px;
+    p{
+        font-size:1rem;
+        background-color: #FFF;
+        width: 121px;
+        text-align: center;
+    }
+}
+.desk_wrap{
+    display: flex;
+    gap: -64px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: 68px;
+    background-color: #814E1E;
+    ul{
+        display: flex;
+        gap: 40px;
+    }
+    li{
+        list-style: none;
+    }
+}
+.homeicon{
+    padding-left: 20px;
+}
+.myicon{
+    padding-top: 12px;
+}
