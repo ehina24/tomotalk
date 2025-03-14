@@ -1,0 +1,33 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #00552E;
+}
+.container{
+    padding-top: 57px;
+    padding-left: 25px;
+}
+.header{
+    display: flex;
+    gap: 280px;
+    .edit{
+        padding-top: 10px;
+    }
+}
+.profile{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    .profile_content{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+.main{
+    display: flex;
+    .likefood_wrap{
+        padding-top: 24px;
+    }
+}
