@@ -25,22 +25,47 @@ body{
 }
 .desk_wrap{
     display: flex;
-    gap: -64px;
+    padding-left: 8px;
+    padding-top: 16px;
+    position: relative;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.student{
+    p{
+        font-size: 1rem;
+        background-color: #FFF;
+        width: 52px;
+        text-align: center;
+    }
+}
+.one{
+    position: absolute;
+    top: 190px;
+    left: 14px;
+}
+.two{
+    position: absolute;
+    top: 190px;
+    left: 74px;
+}
+.icon_wrap{
+    display: flex;
+    gap: 24px;
+    position: absolute;
+    top: 230px;
+    left: 16px;
+}
+.class{
+    width: 93px;
+    background-color: #00552E;
+    margin-top: 72px;
+    margin-bottom: 16px;
+    margin-left: 280px;
+    p{
+        font-size: 2rem;
+        color: #FFF;
+        text-align: center;
+    }
+}
 footer{
     height: 68px;
     background-color: #814E1E;

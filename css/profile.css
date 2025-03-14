@@ -48,6 +48,7 @@ body{
 .finish{
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 16px;
 }
 footer{
     height: 68px;
@@ -65,4 +66,31 @@ footer{
 }
 .myicon{
     padding-top: 12px;
+}
+
+input{
+    color: #FFF;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.like{
+    margin-bottom: 8px;
+    border: solid 1px #FFF;
+    border-radius: 10px;
+    height: 24px;
+    width: 160px;
+}
+.favorite{
+    margin-bottom: 8px;
+    border: solid 1px #FFF;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.word{
+    border: solid 1px #FFF;
+    border-radius: 10px;
+    width: 340px;
+    height: 80px;
 }
